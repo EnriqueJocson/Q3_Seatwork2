@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Q3 Seatwork 2</title>
+	<meta charset=utf-8>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+	<style>
+			body{
+				background-color: darkcyan;
+			}
+			h1{
+				font-size: 70px;
+			}
+			p{
+				font-size: 30px;
+				color: white;
+			}
+			img{
+				height: 350px;
+				width: 350px;
+			}
+			.container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			#brand{
+				height: 70px;
+				width: 120px;
+			}
+			.nav-link{
+				color: white;
+				font-size: 30px;
+			}
+			.search-container{
+				width: 20%;
+			}
+			.searchinput{
+				cursor: text;
+			}
+			#searchsub{
+				cursor: pointer;
+			}
+			#topnav{
+				width: 75%;
+			}
+			.navbar{
+				padding: 0;
+				font-family: Helvetica;
+			}
+	</style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark">
+
+<a class="navbar-brand"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/846a9086-8a40-43e0-aa10-2fc7d6d73730/dean3eh-f651a54d-0c3b-4693-a8b0-491eb14ee6ce.png/v1/fill/w_1280,h_607/disney_s_encanto_logo_png__by_mintmovi3_dean3eh-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjA3IiwicGF0aCI6IlwvZlwvODQ2YTkwODYtOGE0MC00M2UwLWFhMTAtMmZjN2Q2ZDczNzMwXC9kZWFuM2VoLWY2NTFhNTRkLTBjM2ItNDY5My1hOGIwLTQ5MWViMTRlZTZjZS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.6rhJHGNO451-slczTaiFawf7YZYJ0Yn0jnFGUzaeD9M" id="brand"></a>
+
+<div id="topnav">
+
+	<ul class="navbar-nav">
+
+		<li class="nav-item">
+			<a class="nav-link" href="#">Home</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="https://www.google.com/search?q=encanto+synopsis&sca_esv=6fd8c4061c92b223&sca_upv=1&ei=TO3aZYmqFpeE4-EPv9WpyAQ&oq=encanto+syn&gs_lp=Egxnd3Mtd2l6LXNlcnAiC2VuY2FudG8gc3luKgIIADILEAAYgAQYigUYkQIyBRAAGIAEMgUQABiABDIFEAAYgAQyBhAAGBYYHjIIEAAYFhgeGAoyCBAAGBYYHhgPMggQABgWGB4YDzIGEAAYFhgeMgYQABgWGB5I2ghQa1i0BHABeACQAQCYAakBoAGtBKoBAzAuNLgBAcgBAPgBAZgCBKAC5wPCAgoQABhHGNYEGLADwgILEC4YkQIYgAQYigWYAwCIBgGQBgiSBwMxLjM&sclient=gws-wiz-serp&safe=active&ssui=on" target="_blank">About The Movie</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="https://www.google.com/search?q=encanto+characters&sca_esv=6fd8c4061c92b223&sca_upv=1&ei=W-3aZcrjLqrn4-EPlbO5mAw&oq=encanto+chara&gs_lp=Egxnd3Mtd2l6LXNlcnAiDWVuY2FudG8gY2hhcmEqAggAMg0QABiABBixAxhGGPsBMgsQABiABBixAxiDATIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMhkQABiABBixAxhGGPsBGJcFGIwFGN0E2AEBSLQMUABYgQVwAHgBkAEAmAGeAaABsgWqAQMwLjW4AQHIAQD4AQGYAgWgAvgFwgINEAAYgAQYigUYQxixA8ICChAAGIAEGIoFGEPCAgUQLhiABJgDALoGBggBEAEYE5IHAzAuNQ&sclient=gws-wiz-serp&safe=active&ssui=on" target="_blank">Characters</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="https://www.apps.disneyplus.com/ph/onboarding" target="_blank">Where To Watch</a>
+		</li>
+	</ul>
+</div>
+
+<div class="search-container">
+	<form>
+		<input type="search" placeholder="Search" name="search" class="searchinput">
+		<button type="submit" class="btn-success" id="searchsub">Submit</button>
+	</form>
+
+</div>
+</nav>
+
+<center>
+	<h1 class="text-light bg-warning">My Favorite Encanto Characters</h1>
+	<p>From Left to Right: Mirabel, Bruno, Antonio</p>
+</center>
+
+<div class="container">
+	<div class="row">
+		<table class="table table-hover">
+		<tr>
+			<td>
+				<div class="col-md-4">
+					<img class="rounded-circle" src="data:image/jpeg;base64,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">
+				</div>
+			</td>
+			<td>
+				<div class="col-md-4">
+					<img class="rounded-circle" src="https://hips.hearstapps.com/hmg-prod/images/encanto-mirabel-bruno-1643636737.jpg?crop=0.336xw:0.617xh;0.551xw,0.0900xh&resize=640:*">
+				</div>
+			</td>
+			<td>
+				<div class="col-md-4">
+					<img class="rounded-circle" src="https://wallpapers.com/images/hd/encanto-characters-pictures-283gv76eqkziur7k.jpg">
+				</div>
+			</td>
+		</tr>
+		</div>
+</div>
+</table>
+
+	<form class="form-group">
+		<div class="row">
+			<div class="col-md-6">
+				<p>Email</p>
+				<input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+			</div>
+			<div class="col-md-6">
+				<p>Password</p>
+				<input type="password" class="form-control" placeholder="Enter password" name="pswd">
+			</div>
+		</div>
+<br><br>
+			<p>Who is your favorite Encanto character?</p>
+			<div class="col-md-6">
+			<div class="form-check">
+				<label class="form-check-label">
+					<input type="checkbox" class="form-check-input" name="optradio">Mirabel
+				</label>
+				<br>
+				<label class="form-check-label">
+					<input type="checkbox" class="form-check-input" name="optradio">Bruno
+				</label>
+				<br>
+				<label class="form-check-label">
+					<input type="checkbox" class="form-check-input" name="optradio">Luisa
+				</label>
+				<br>
+				<label class="form-check-label">
+					<input type="checkbox" class="form-check-input" name="optradio">Antonio
+				</label>
+				<br>
+				<label class="form-check-label">
+					<input type="checkbox" class="form-check-input" name="optradio">Julieta
+				</label>
+				<br>
+				<label class="form-check-label">
+					<input type="checkbox" class="form-check-input" name="optradio">Other
+				</label>
+			</div>
+			</div>
+<br><br>
+		<div class="col-md-6">	
+			<button type="button" class="btn btn-primary btn-lg btn-block">Submit Short Survey</button>
+		</div>
+	</div>
+</form>
+
+</body>
+</html>
